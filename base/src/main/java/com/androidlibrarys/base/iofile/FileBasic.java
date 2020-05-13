@@ -325,7 +325,7 @@ public class FileBasic {
     }
 
     @TargetApi(Build.VERSION_CODES.KITKAT)
-    private static String getLocalPath(final Context context, final Uri uri) {
+    public static String getLocalPath(final Context context, final Uri uri) {
 
         if (DEBUG)
             Log.d(TAG + " File -",
